@@ -7,12 +7,11 @@
 let me = "ian";
 
 function greeting() {
-
-  console.log("Hello, " + me + "!")
+  return ("Hello, " + me + "!")
 
 }
-
 me = "everyone";
+console.log(greeting());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
